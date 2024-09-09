@@ -40,6 +40,8 @@ Diferentemente da let e da var. E assim com a let ela também tem escopo de bloc
 [javascript](https://codepen.io/alyrdx29/pen/YzoEPNy)
 [javascript](https://codepen.io/alyrdx29/pen/WNqXvrY)
 [javascript](https://codepen.io/alyrdx29/pen/wvLyYJr)
+[javascript](https://codepen.io/alyrdx29/pen/OJervQe)
+[javascript](https://codepen.io/alyrdx29/pen/WNqYbLK)
 [javascript](https://codepen.io/alyrdx29/pen/BagYqWd)
 [javascript](https://codepen.io/alyrdx29/pen/YzoYdeK)
 [javascript](https://codepen.io/alyrdx29/pen/rNEYdVj)
