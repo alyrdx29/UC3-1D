@@ -25,15 +25,21 @@ batata = 'batata-frita'
 É  mais antiga forma de definir variáveis no javascript, ela pode ser reatribuída e redeclarada. 
 Diferentemente da const e da let ela não tem escopo de bloco.
 
+var x = 10;
+console.log(x); // Saída: 10
 ## let
 
 A let junto com a const vieram no es6 (atualização de 2015).
 Ela também pode ter o seu valor reatribuido mas não pode ser redeclarado.
 
+let y = 20;
+console.log(y); // Saída: 20
+
 ## const
 
 A const (constante) não pode ter seu valor reatribuído nem redeclarado.
 Diferentemente da let e da var. E assim com a let ela também tem escopo de bloco.
+
 
 const numero = 10;                // Declara uma constante com valor numérico
 const saudacao = "Olá, mundo!";  // Declara uma constante com uma string
@@ -58,7 +64,7 @@ console.log("Pessoa atualizada:", pessoa);
 ## CONSOLE.LOG
 O console.log é uma função usada em JavaScript para exibir mensagens no console do navegador ou ambiente de execução, como o Node.js. Ele é frequentemente utilizado para depuração (debugging), permitindo que o desenvolvedor veja o valor de variáveis ou mensagens personalizadas em tempo real durante a execução do código.
 
-## console.log(mensagem);
+console.log(mensagem);
 
 let nome = "João";
 console.log(nome); // Saída: João
@@ -69,6 +75,7 @@ console.log(nome, idade); // Saída: João 25
 
 ## PROMPT
 Como Funciona o prompt Exibição da Caixa de Diálogo: Quando prompt é chamado, ele exibe uma caixa de diálogo modal com um campo de entrada e uma mensagem opcional. O usuário pode digitar um valor ou cancelar a ação.
+
 
 // Exibindo o prompt e armazenando a entrada do usuário
 let nome = prompt("Qual é o seu nome?", "Nome padrão");
@@ -84,13 +91,17 @@ if (nome !== null) {
 
 prompt("Qual é o seu nome?", "Nome padrão"):
 
+
 ## STRING
 Em JavaScript, strings são um tipo de dado primitivo usado para representar texto. Strings são sequências de caracteres que podem incluir letras, números, espaços e símbolos. Elas são fundamentais para manipulação e apresentação de dados textuais em um programa. Strings podem ser criadas usando aspas simples ('), aspas duplas (") ou crase (`) para template literals.
+
 
  let string1 = 'Olá, mundo!';
 let string2 = "Bem-vindo ao JavaScript!";
 let string3 = `Você tem ${25} anos.`;
-VARIAVEIS
+
+
+## VARIAVEIS
 Em JavaScript, variáveis são usadas para armazenar dados que podem ser manipulados e referenciados em diferentes partes do código. Elas atuam como "recipientes" para valores e permitem que esses valores sejam usados e alterados conforme necessário.
 
 ## IF ELSE
@@ -101,23 +112,42 @@ if (condição) {
 } else {
   // Código a ser executado se a condição for falsa
 }
+
 ## NUMBER
 Em JavaScript, Number é um tipo de dado primitivo usado para representar valores numéricos. O tipo Number pode armazenar tanto números inteiros quanto números de ponto flutuante (decimais). A seguir, estão algumas das principais características e operações associadas ao tipo Number em JavaScript.
 
 let inteiro = 42;
 let decimal = 3.14;
 
-## switch
+## switch case
 
-switch (new Date().getDay()) {
-  case 6:
-    text = "Today is Saturday";
+
+let diaDaSemana = 3;
+
+switch (diaDaSemana) {
+  case 1:
+    console.log("Hoje é Domingo");
     break;
-  case 0:
-    text = "Today is Sunday";
+  case 2:
+    console.log("Hoje é Segunda-feira");
+    break;
+  case 3:
+    console.log("Hoje é Terça-feira");
+    break;
+  case 4:
+    console.log("Hoje é Quarta-feira");
+    break;
+  case 5:
+    console.log("Hoje é Quinta-feira");
+    break;
+  case 6:
+    console.log("Hoje é Sexta-feira");
+    break;
+  case 7:
+    console.log("Hoje é Sábado");
     break;
   default:
-    text = "Looking forward to the Weekend";
+    console.log("Dia inválido");
 }
 
 ## Atividades desenvolvidas
