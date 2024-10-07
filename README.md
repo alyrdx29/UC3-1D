@@ -35,6 +35,18 @@ Ela também pode ter o seu valor reatribuido mas não pode ser redeclarado.
 A const (constante) não pode ter seu valor reatribuído nem redeclarado.
 Diferentemente da let e da var. E assim com a let ela também tem escopo de bloco.
 
+## switch
+
+switch (new Date().getDay()) {
+  case 6:
+    text = "Today is Saturday";
+    break;
+  case 0:
+    text = "Today is Sunday";
+    break;
+  default:
+    text = "Looking forward to the Weekend";
+}
 
 ## Atividades desenvolvidas
 - [javascript](https://codepen.io/alyrdx29/pen/YzoEPNy)
